@@ -1,0 +1,22 @@
+
+/* Base form styles to complement Tailwind utility classes */
+.form-input, .form-textarea {
+  width: 100%;
+  border: 1px solid rgb(226 232 240);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+  outline: none;
+  font-size: 0.95rem;
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.form-input:focus, .form-textarea:focus {
+  border-color: rgb(59 130 246);
+  box-shadow: 0 0 0 4px rgba(59,130,246,0.15);
+}
+/* Placeholder image blocks */
+.placeholder {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #e2e8f0, #f8fafc);
+  color: #475569;
+}
